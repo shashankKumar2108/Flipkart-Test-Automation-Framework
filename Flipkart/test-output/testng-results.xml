@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-04T14:55:57 IST" name="Flipkart Test Suite" finished-at="2026-05-04T14:58:05 IST" duration-ms="128477">
+    <groups>
+    </groups>
+    <test started-at="2026-05-04T14:55:57 IST" name="Home Page Tests" finished-at="2026-05-04T14:56:33 IST" duration-ms="36232">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@38afe297]" started-at="2026-05-04T14:55:57 IST" name="setUp" finished-at="2026-05-04T14:56:04 IST" duration-ms="6837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFlipkartTitle()[pri:0, instance:tests.HomePageTest@38afe297]" started-at="2026-05-04T14:56:04 IST" name="verifyFlipkartTitle" finished-at="2026-05-04T14:56:14 IST" duration-ms="10208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlipkartTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@38afe297]" started-at="2026-05-04T14:56:14 IST" name="tearDown" finished-at="2026-05-04T14:56:14 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@38afe297]" started-at="2026-05-04T14:56:14 IST" name="setUp" finished-at="2026-05-04T14:56:20 IST" duration-ms="5636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchBoxIsPresent()[pri:0, instance:tests.HomePageTest@38afe297]" started-at="2026-05-04T14:56:20 IST" name="verifySearchBoxIsPresent" finished-at="2026-05-04T14:56:33 IST" duration-ms="12857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBoxIsPresent -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@38afe297]" started-at="2026-05-04T14:56:33 IST" name="tearDown" finished-at="2026-05-04T14:56:33 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+    </test> <!-- Home Page Tests -->
+    <test started-at="2026-05-04T14:56:33 IST" name="Login Tests" finished-at="2026-05-04T14:57:08 IST" duration-ms="34989">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@36b4fe2a]" started-at="2026-05-04T14:56:33 IST" name="setUp" finished-at="2026-05-04T14:56:39 IST" duration-ms="5426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyHomePageLoads()[pri:0, instance:tests.LoginTest@36b4fe2a]" started-at="2026-05-04T14:56:39 IST" name="verifyHomePageLoads" finished-at="2026-05-04T14:56:49 IST" duration-ms="10040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageLoads -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@36b4fe2a]" started-at="2026-05-04T14:56:49 IST" name="tearDown" finished-at="2026-05-04T14:56:49 IST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginTest@36b4fe2a]" started-at="2026-05-04T14:56:49 IST" name="setUp" finished-at="2026-05-04T14:56:55 IST" duration-ms="6424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginPageOpens()[pri:0, instance:tests.LoginTest@36b4fe2a]" started-at="2026-05-04T14:56:55 IST" name="verifyLoginPageOpens" finished-at="2026-05-04T14:57:08 IST" duration-ms="12406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageOpens -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@36b4fe2a]" started-at="2026-05-04T14:57:08 IST" name="tearDown" finished-at="2026-05-04T14:57:08 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- Login Tests -->
+    <test started-at="2026-05-04T14:57:08 IST" name="Search Tests" finished-at="2026-05-04T14:58:05 IST" duration-ms="57235">
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:57:08 IST" name="setUp" finished-at="2026-05-04T14:57:14 IST" duration-ms="5945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchForLaptop()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:57:14 IST" name="searchForLaptop" finished-at="2026-05-04T14:57:28 IST" duration-ms="13319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForLaptop -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:57:28 IST" name="tearDown" finished-at="2026-05-04T14:57:28 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:57:28 IST" name="setUp" finished-at="2026-05-04T14:57:34 IST" duration-ms="5968" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchForMobile()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:57:34 IST" name="searchForMobile" finished-at="2026-05-04T14:57:47 IST" duration-ms="13257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForMobile -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:57:47 IST" name="tearDown" finished-at="2026-05-04T14:57:47 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:57:47 IST" name="setUp" finished-at="2026-05-04T14:57:53 IST" duration-ms="5372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifySearchURLContainsKeyword()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:57:53 IST" name="verifySearchURLContainsKeyword" finished-at="2026-05-04T14:58:05 IST" duration-ms="12519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchURLContainsKeyword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@157853da]" started-at="2026-05-04T14:58:05 IST" name="tearDown" finished-at="2026-05-04T14:58:05 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Search Tests -->
+  </suite> <!-- Flipkart Test Suite -->
+</testng-results>
